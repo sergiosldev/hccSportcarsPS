@@ -1,0 +1,141 @@
+<?php
+include('config_events.php');
+//print_r($_REQUEST);
+if(isset($_REQUEST['id_alta']) && trim($_REQUEST['edicio'])=='false')
+{
+	if($_aux_=valida()){
+		die('<div style="border:1px solid #f00;margin:3px;padding:3px;color:#f00;">'.$_aux_.'</div>'); 
+	}
+	if(!es_pot_donar_alta()){ die('error'); }
+	$aux=explode('@',request('id_alta'));
+	// mirem si ja existeix event
+	if(no_existeix_event()){ // si no hi ha cap event INSERTEM
+		$sql='INSERT INTO taula_events (id ,dia ,hora ,tipus)
+		VALUES ("'.request('id_alta').'", "'.$aux[0].'", "'.$aux[1].'", "'.request('tipus').'");';
+		$result=mysql_query($sql,$link);
+		
+	}
+	
+	$sql='INSERT INTO `inscrits` (
+	id_event ,email ,telefon ,pilot,dia,tipus_event,persona_regala,email_persona_regala,mobil_persona_regala,coches,codi_localtzador,codi_consum,Observaciones )
+	VALUES ("'.request('id_alta').'", "'.request('email').'", "'.request('telefon').'", 
+	"'.request('pilot').'","'.$aux[0].'","'.request('tipus').'"
+	,"'.request('persona_regala').'","'.request('email_regala').'","'.request('telefon_regala').'","'.request('coches').'"
+	,"'.request('codigo_localizador').'","'.request('codigo_consumo').'","'.request('Observaciones').'");';
+
+	$result=mysql_query($sql,$link)  or die('error');
+    echo 'OK';
+
+}
+if(isset($_REQUEST['id_alta']) && trim($_REQUEST['edicio'])=='true')
+{
+	if($_aux_=valida()){
+		die('<div style="border:1px solid #f00;margin:3px;padding:3px;color:#f00;">'.$_aux_.'</div>'); 
+	}
+	$aux=explode('@',request('id_alta'));
+	$sql='UPDATE inscrits SET id_event="'.request('id_alta').'" , email="'.request('email').'",
+	telefon="'.request('telefon').'",pilot="'.request('pilot').'",
+	dia="'.$aux[0].'",tipus_event="'.request('tipus').'",persona_regala="'.request('persona_regala').'",
+	email_persona_regala="'.request('email_regala').'",mobil_persona_regala="'.request('telefon_regala').'",
+	coches="'.request('coches').'",coches="'.request('coches').'"
+	,codi_localtzador ="'.request('coches').'",codi_localtzador ="'.request('codigo_localizador').'"
+	,codi_consum ="'.request('codigo_consumo').'",Observaciones ="'.request('Observaciones').'"
+	 Where id="'.request('id_inscrit').'"';
+	 //echo $sql;
+	$result=mysql_query($sql,$link)  or die('error');
+	echo 'OK';
+	
+}
+
+else if(isset($_REQUEST['esborra']))
+  {
+  	$sql='DELETE FROM inscrits where id="'.request('esborra').'"  ';
+    $result=mysql_query($sql,$link);
+	
+	$sql='SELECT * FROM inscrits WHERE id_event="'.request('id_event').'" AND tipus_event="'.request('tipus').'" '; // mirem quants en queden
+	$result=mysql_query($sql,$link);
+	
+	if(mysql_num_rows($result)==0){ // si no hi ha cap inscrit
+  		$sql='DELETE FROM `taula_events` where id="'.request('id_event').'" AND tipus="'.request('tipus').'" ';
+        $result=mysql_query($sql,$link) or die('error');
+	}
+	
+	echo 'OK';
+  }
+else if(isset($_GET['id_edita']))
+{
+	$cad_eval='';
+    // mirem si ja existeix
+	$sql='SELECT * FROM inscrits WHERE id="'.request('id_edita').'"';
+    $result=mysql_query($sql,$link);
+    $r=mysql_fetch_assoc($result);
+    $cad_eval.='id_(\'pilot\').value=\''. $r['pilot'].'\'; ';
+    $cad_eval.='id_(\'email\').value=\''. $r['email'].'\'; ';
+	$cad_eval.='id_(\'telefon\').value=\''. $r['telefon'].'\'; ';
+	$cad_eval.='id_(\'persona_regala\').value=\''. $r['persona_regala'].'\'; ';
+    $cad_eval.='id_(\'email_regala\').value=\''. $r['email_persona_regala'].'\'; ';
+	$cad_eval.='id_(\'telefon_regala\').value=\''. $r['mobil_persona_regala'].'\'; ';
+	$cad_eval.='id_(\'id_inscrit\').value=\''. $r['id'].'\'; ';
+	$cad_eval.='id_(\'codigo_localizador\').value=\''. $r['codi_localtzador'].'\'; ';
+	$cad_eval.='id_(\'codigo_consumo\').value=\''. $r['codi_consum'].'\'; ';
+	$cad_eval.='id_(\'Observaciones\').value=\''. $r['Observaciones'].'\'; ';
+	$cad_eval.='id_(\'c'. $r['coches'].'\').checked=true; ';
+	echo $cad_eval; 
+}
+else if(isset($_GET['marca_event']))
+{
+	$cad_eval='';
+    // mirem si ja existeix
+	$sql='UPDATE taula_events SET Llegit="'.request('mark').'" WHERE id_autoincrement="'.request('marca_event').'"';
+    //echo $sql;
+	$result=mysql_query($sql,$link);
+    if($result)echo 'OK';
+    else echo 'ERROR';
+}
+
+function es_pot_donar_alta()
+   {
+   global $link;		
+   	$sql='SELECT i.* FROM inscrits as i WHERE i.id_event="'.request('id_alta').'" AND i.tipus_event="'.request('tipus').'"';
+    $result=mysql_query($sql,$link);
+	return (mysql_num_rows($result)<MAX_PERSONES);
+   }
+function no_existeix_event()
+   {
+   global $link;	
+   $sql='SELECT * FROM taula_events WHERE id="'.request('id_alta').'" AND tipus="'.request('tipus').'"';
+    $result=mysql_query($sql,$link);
+	return (mysql_num_rows($result)==0);
+   }
+function valida()
+   {
+   	$cad='';
+	
+ if(trim($_REQUEST['email'])==''){$cad.='El email del piloto es obligatorio<br>'; }  
+ else if (!filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL)) {
+   $cad.='El email del piloto es no tiene un formato valido<br>';
+      }	  	
+ if(trim($_REQUEST['telefon']=='')){$cad.='El teléfono del piloto es obligatorio<br>'; } 
+ if(trim($_REQUEST['pilot']=='')){$cad.='El nombre del piloto es obligatorio<br>'; }
+ if(trim($_REQUEST['codigo_localizador']=='')){$cad.='El codigo localizador obligatorio<br>';  }
+ if(trim($_REQUEST['codigo_consumo']=='')){$cad.='El codigo consumo es obligatorio<br>';  }
+ $r='';
+ if($r=valida_codigos())$cad.=$r;
+ return ''.$cad.'';
+   }
+
+function valida_codigos()
+   {
+   	global $link;
+    $sql='SELECT * FROM inscrits WHERE codi_localtzador="'.request('codigo_localizador').'" OR codi_consum="'.request('codigo_consumo').'" '; // mirem quants en queden
+	$result=mysql_query($sql,$link);
+	
+	if(mysql_num_rows($result)!=0){ 
+	  return 'El codigo localizador o el codigo consumo ya se encuentran registrados';
+	}// si no hi ha cap inscrit
+   }
+  
+function request($c)
+   {return mysql_real_escape_string(strip_tags($_REQUEST[$c]));}
+
+?>

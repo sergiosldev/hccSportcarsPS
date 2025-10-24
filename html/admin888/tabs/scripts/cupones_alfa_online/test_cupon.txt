@@ -1,0 +1,1 @@
+[Mon, 11 Feb 2013 12:15:36 +0100] :  UPDATE  ps_ofertas_cupones_historico_distribuidores set facturado = 1 WHERE  true  and id_oferta_hist = '24'  and cupon = '5116753dc9f46' 

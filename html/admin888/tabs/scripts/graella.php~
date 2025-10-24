@@ -1,0 +1,95 @@
+<?php
+
+include('config.php');
+include 'dies_graella.php';
+
+define('TEMPS',$_REQUEST['data']); // Dia que li arriba
+
+
+
+graella($array_hores);
+
+/*
+ $hores array(hora,info) 
+ $lliure array(hora)  
+ */
+function graella($hores)
+{
+	global $link;
+?>
+
+<?php if(!isset($_REQUEST['front'])){ ?>
+  <table width="100%" border="0">
+<?php }else{ ?>
+ <table width="30%" border="0">
+<?php } ?>
+
+
+<?php	
+foreach($hores as $hora=>$info)
+  {
+  	$cad='<button  class="no_disponible" >·</button>';
+	$active='';
+	$info='';
+	
+	$sql='SELECT i.* FROM inscrits as i WHERE i.id_event="'.TEMPS.'@'.$hora.'" AND i.tipus_event="'.$_REQUEST['tipus'].'"';
+    $result=mysql_query($sql,$link);
+	$incrits=mysql_num_rows($result);
+	$cad='';$i=MAX_PERSONES;
+	//if($inscrits<MAX_PERSONES){
+		while($i!=0){
+  		  if($i>$incrits)$cad.='<button class="disponible" onclick="alta(\''.TEMPS.'\',\''.$hora.'\')" >·</button> ';
+		  else {$cad.='<button class="no_disponible" onclick="alta(\''.TEMPS.'\',\''.$hora.'\')" >·</button> ';}
+		  $i--;
+		}
+	//}
+	while($r=mysql_fetch_assoc($result))
+	   $info.='
+	   <table width="100%">
+	   <tr>
+	   <td width="5%">
+	     <img src="'.URL_ROOT.'img/persona.png" width="8px" alt="" />
+	   </td><td width="30%" class="borderg"> 
+	   '.$r['pilot'].'  </td><td  width="30%" class="borderg" > '.$r['email'].' </td>
+	   <td width="20%" class="borderg"> '.$r['telefon'].'</td><td>
+	   <a id="activa" href="javascript:esborra(\''.$r['id'].'\',\''.TEMPS.'@'.$hora.'\')">
+          <img src="'.URL_ROOT.'img/esborra.gif"  alt="" />
+       </a> 
+	   <a id="activa" href="javascript:edita(\''.$r['id'].'\')">
+	       <img src="'.URL_ROOT.'img/edit.gif"  alt="" />
+	   </a> </td></tr>
+	   </table>';  // recuperem info
+	?>
+	<tr>
+		
+        <td width="150px" align="right" class="info hora"><?php echo $hora ?><br><?php echo $hora ?></td>
+	
+		<td width="80px" > <?php echo $cad ?> </td>
+	<?php if(!isset($_REQUEST['front'])){ ?>
+		<td class="info pilots"><?php echo $info ?></td>
+	  	
+		<?php
+		$sql='SELECT i.* FROM taula_events as i WHERE i.id="'.TEMPS.'@'.$hora.'" AND i.tipus="'.$_REQUEST['tipus'].'"';
+       
+		$result=mysql_query($sql,$link);
+		if($result && mysql_num_rows($result)){
+			$r=mysql_fetch_assoc($result);
+			if($r['Llegit']=='1'){
+			?>
+			<td ><a id="marcat<?php echo $r['id_autoincrement'] ?>" marca="1" style="background:#ee9090;" href="javascript:marca_event(<?php echo $r['id_autoincrement'] ?>)"> &#160; &#160;  </a></td>
+		    <?php }else{ ?>
+		    <td ><a id="marcat<?php echo $r['id_autoincrement'] ?>" marca="0" style="background:#90ee90;" href="javascript:marca_event(<?php echo $r['id_autoincrement'] ?>)"> &#160; &#160;  </a></td>
+			<?php } 
+		}
+			?>
+	<?php } ?>	  
+	</tr>
+	<?php  	
+	}
+?>
+</table>
+<?php	
+	}
+	
+
+?>

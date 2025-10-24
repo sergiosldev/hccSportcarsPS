@@ -1,0 +1,75 @@
+Order deny,allow
+Deny from all
+
+<Files *.js>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files *.css>
+Order deny,allow
+Allow from all
+</Files>
+<Files *.jpg>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files *.gif>
+Order deny,allow
+Allow from all
+</Files>
+<Files *.png>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files download_pdf.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files upload_clase.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files iframenews.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files buscar_pilotos.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files calendari.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files pdf_reserves.html>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files descargar_mails.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella_cal.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files print.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files ajax.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella.php>
+Order deny,allow
+Allow from all
+</Files>

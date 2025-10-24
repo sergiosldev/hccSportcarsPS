@@ -1,0 +1,636 @@
+Order deny,allow
+Deny from all
+
+<Files *.js>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files *.css>
+Order deny,allow
+Allow from all
+</Files>
+<Files *.jpg>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files *.gif>
+Order deny,allow
+Allow from all
+</Files>
+<Files *.png>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files download_pdf.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files upload_clase.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files iframenews.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files buscar_pilotos.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files calendari.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files pdf_reserves.html>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files descargar_mails.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella_cal.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files print.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files ajax.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files establecimientos.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files talonarios.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_talonario.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files cupones.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_cupones.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_establecimiento.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_observaciones.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_email_cupones.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_descargar_cupones.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files cupones_ofertas.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_cupones_ofertas.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_email_cupones_oferta.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ofertas.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files clientes.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_borrar_ofertas.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_borrar_imagen_oferta.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_ofertas_bd.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_imagen_oferta_bd.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files funciones_ofertas.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files formulario_oferta.php>
+Order deny,allow
+Allow from all
+</Files>
+
+
+<Files formulario_imagenes_oferta.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files form_lista_imagenes.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_validar_password.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_observaciones_oferta.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_usuarios.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella_instructors.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files download_excel.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files test_graella.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_marcar_oferta.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_fecha_actual.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files historial_clientes.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files test.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_inicio_bd.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_clientes.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files calculo_lineas.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files stripHTML.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files generar_pdf_cupon.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files validar_cupones_cancelados.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ofertas_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files formulario_imagenes_oferta_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files cupones_ofertas_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_observaciones_oferta_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_cupones_ofertas_ca.php> 
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_email_cupones_oferta_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files cupones_oferta_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_validar_password_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_distribuidores_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_ofertas_bd_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files formulario_imagenes_oferta_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_imagen_oferta_bd_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files form_lista_imagenes_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_borrar_imagen_oferta_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_borrar_ofertas_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files distribuidores.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files historial_reservas.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files generar_cupones_perdidos.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files desmarcar_reserva.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files descargar_mails2.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files generar_vista_previa.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files historial_distribuidores.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files validar_cupones_cancelados_ca.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files download_pdf2.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella_organizadores.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files generar_pdf_organizadores.php>
+Order deny,allow
+Allow from all
+</Files>
+<Files generar_pdf_organizadoresb.php>
+Order deny,allow
+Allow from all
+</Files>
+
+
+<Files graella_organizadores.html>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_acceso_ofertas_prestashop.php>
+Order deny,allow
+Allow from all
+</Files>
+
+
+
+<Files graella_2.php>
+Order deny,allow
+Allow from all
+</Files>
+
+
+<Files ajax_2.php>
+Order deny,allow
+Allow from all
+</Files>
+
+
+
+<Files calendari_2.php>
+Order deny,allow
+Allow from all
+</Files>
+
+
+<Files calendari_sel.php>
+Order deny,allow
+Allow from all
+</Files>
+
+
+<Files graella_sel.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_sel.php>
+Order deny,allow
+Allow from all
+</Files>
+
+
+<Files tipus_sel.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella_organizadores_20km7km.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella_organizadores_20km7kmb.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella_instructors_20km7km.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files opciones_oferta.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files crear_formulario_oferta.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files funciones_ruta_localizadores.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files localizadores_ruta.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_archivo_localizadores.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files ajax_seleccion_opc.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files envia_mails.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files graella_organizadores_20km7km_todos.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files generar_pdf_organizadores_todos.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files concatenar_pdf.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files calendari_limbo.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files reservas_limbo.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files enviar_mails_suspension.php>
+Order deny,allow
+Allow from all
+</Files>
+
+<Files calendari_sel_susp.php>       
+Order deny,allow
+Allow from all
+</Files>
+
+<Files descargar_telefonos.php>       
+Order deny,allow
+Allow from all
+</Files>
+ 
+<Files guardar_codigo_hotel.php>       
+Order deny,allow
+Allow from all
+</Files>
+
+<Files cargar_lista_hoteles.php>       
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files calendario_hoteles.php>       
+Order deny,allow 
+Allow from all
+</Files>
+
+
+<Files consultar_codigo_hotel.php>       
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files consultar_hotel_defecto.php>       
+Order deny,allow 
+Allow from all
+</Files>
+
+ 
+ <Files cargar_listado_hoteles.php>       
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files modificar_videos.php>       
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files descargar_mails_seleccion.php>       
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files buscar_pilotos_canjear.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files canjear_reserva.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files guardar_marca.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files eliminar_marcas.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files guardar_marca_visible.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files reubicaciones.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files buscar_pilotos_consulta.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>
+ 
+<Files buscar_pilotos_ajax.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files buscar_pilotos2.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>
+
+<Files consulta_telefono_hotel.php>                                                   
+Order deny,allow 
+Allow from all
+</Files>

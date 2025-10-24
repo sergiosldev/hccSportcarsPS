@@ -1,0 +1,38 @@
+[Wed, 07 Jan 2015 11:21:15 +0100] : You must provide at least one recipient email address.
+[Tue, 27 Jan 2015 10:22:27 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:22:30 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:31:51 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:31:52 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:33:02 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:33:05 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:40:13 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:40:16 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:42:40 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:42:43 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:49:11 +0100] : Could not instantiate mail function.
+[Tue, 27 Jan 2015 10:49:13 +0100] : Could not instantiate mail function.
+[Wed, 29 Apr 2015 17:29:30 +0200] : You must provide at least one recipient email address.
+[Mon, 25 May 2015 16:43:17 +0200] : You must provide at least one recipient email address.
+[Mon, 25 May 2015 17:28:15 +0200] : You must provide at least one recipient email address.
+[Tue, 26 May 2015 12:33:47 +0200] : You must provide at least one recipient email address.
+[Wed, 10 Jun 2015 16:26:26 +0200] : You must provide at least one recipient email address.
+[Wed, 10 Jun 2015 16:34:08 +0200] : You must provide at least one recipient email address.
+[Fri, 26 Jun 2015 14:04:33 +0200] : You must provide at least one recipient email address.
+[Fri, 26 Jun 2015 14:11:03 +0200] : You must provide at least one recipient email address.
+[Fri, 26 Jun 2015 14:13:12 +0200] : You must provide at least one recipient email address.
+[Fri, 26 Jun 2015 14:26:03 +0200] : You must provide at least one recipient email address.
+[Fri, 26 Jun 2015 14:26:42 +0200] : You must provide at least one recipient email address.
+[Fri, 26 Jun 2015 14:35:50 +0200] : You must provide at least one recipient email address.
+[Fri, 26 Jun 2015 14:48:21 +0200] : You must provide at least one recipient email address.
+[Fri, 31 Jul 2015 12:04:15 +0200] : You must provide at least one recipient email address.
+[Fri, 31 Jul 2015 13:59:29 +0200] : You must provide at least one recipient email address.
+[Fri, 31 Jul 2015 14:14:36 +0200] : You must provide at least one recipient email address.
+[Fri, 31 Jul 2015 14:16:59 +0200] : You must provide at least one recipient email address.
+[Fri, 31 Jul 2015 14:21:45 +0200] : You must provide at least one recipient email address.
+[Fri, 31 Jul 2015 14:23:35 +0200] : You must provide at least one recipient email address.
+[Fri, 31 Jul 2015 14:43:53 +0200] : You must provide at least one recipient email address.
+[Mon, 03 Aug 2015 07:28:56 +0200] : You must provide at least one recipient email address.
+[Thu, 03 Sep 2015 12:37:23 +0200] : You must provide at least one recipient email address.
+[Thu, 03 Sep 2015 12:43:51 +0200] : You must provide at least one recipient email address.
+[Thu, 03 Sep 2015 12:54:15 +0200] : You must provide at least one recipient email address.
+[Wed, 09 Sep 2015 12:40:32 +0200] : You must provide at least one recipient email address.

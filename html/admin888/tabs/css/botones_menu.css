@@ -1,0 +1,57 @@
+
+.boton_menu
+{
+    width:127px;
+    float:left;
+    display:block;
+    background-color:#FF0000;
+    padding:7px 7px 0 7px;
+    text-align:center;
+    height:27px;
+    color:#FFFFFF;
+    margin:0 0 0 5px;
+    border:2px solid #CCCCCC;    
+}   
+.boton_menu_tipo
+{
+    float:left;
+    display:block;
+    background-color:#FF0000;
+    padding:7px 7px 0 7px;
+    text-align:center;
+    color:#FFFFFF;
+    margin:0 0 0 5px;
+    border:2px solid #CCCCCC;    
+}
+.boton_small
+{
+    height:30px;
+    width:54px;
+}
+.boton_mediano
+{
+    height:30px;
+    width:95px;
+}
+.boton_grande
+{
+    height:30px;
+    width:124px;
+}   
+
+.boton_grande2
+{
+    height:38px;
+    width:107px;
+}   
+
+.boton_menu:hover,.boton_menu_tipo:hover
+{
+   color:#FFFFFF; 
+   font-weight:bold;
+}
+.menu_activo
+{
+    background-color:#008000;
+    font-weight:bold;
+} 

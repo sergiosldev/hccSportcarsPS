@@ -1,0 +1,514 @@
+<table style="height:55px;border:none;"><tr><td width="80px"></td><td width="270px" align="left" style="color:#000;font-size:13px;text-align:left;font-weight:bold;"></td><td width="160px" align="left" style="color:#000;font-size:13px;text-align:left;font-weight:bold;">DIA: 22/12/2012<br>Igualada</td><td colspan="2"></td></tr></table><table class="ma" cellspacing=0 style="border-spacing:0;border:1px solid;border-bottom:none;"><tr><td width="80px" class="cabecera_listado">Hora</td><td width="270px" class="cabecera_listado">Nombre cliente</td><td width="80px" class="cabecera_listado">ferrari</td><td width="80px" class="cabecera_listado">porsche</td><td width="80px" class="cabecera_listado">copiloto</td><td width="80px" class="cabecera_listado">Anulado</td></tr><tr><td width="80px" class="texto_listado" style="background-color:#B2A1C7;text-align:center;">08:00&#160;&#160;</td><td width="270px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td></tr><tr><td width="80px" class="texto_listado" style="background-color:#B2A1C7;text-align:center;">08:00&#160;&#160;</td><td width="270px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td></tr><tr><td width="80px" class="texto_listado" style="background-color:#B2A1C7;text-align:center;">08:30&#160;&#160;</td><td width="270px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td><td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          08:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          09:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">Alberto Miranda Pérez  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          09:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          09:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">ANTONIO RAYA ALVAREZ  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          09:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">EDUARDO  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          10:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">Oscar Lopez  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          10:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">FRANCISCO LOPEZ  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          10:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">lorena  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          10:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">Pere Romeu  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          11:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">GODOFREDO CHACON BARBERO  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          11:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">Daniele Baldon  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          11:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">SERGIO RAMOS   </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          11:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">Albert  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          12:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">Lorenzo Roso  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          12:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">HORIA LAMBRACHE  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          12:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          12:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          13:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">Pol Llahuna Parramon  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          13:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">Piergiorgio Burei  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          13:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          13:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+      </table>
+  <table class="ta" cellspacing=0 style="border-spacing:0;border:1px solid;border-top:0;">
+    <tr style="visibility:hidden;">
+       <td width="80px"><!--Tarde<br><br />--></td>
+       <td colspan="5"></td>
+    </tr>    
+    
+    <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          14:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          14:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          14:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          14:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          15:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          15:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          15:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          15:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          16:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          16:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          16:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          16:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          17:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          17:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          17:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          17:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          18:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          18:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          18:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          18:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          19:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          19:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado ">&nbsp;  </td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>
+     <td width="80px" class="texto_listado ">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          19:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          19:30&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          20:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+        <tr>
+        <td width="80px"  class="texto_listado" style="background-color:#B2A1C7;text-align:center;">
+          20:00&#160;&#160; 
+        </td>
+        
+     <td width="270px" class="texto_listado registro_especial">&nbsp;  </td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>
+     <td width="80px" class="texto_listado registro_especial">&nbsp;</td>    </tr>
+    </table>
+<table style="border:none;"><tr><td height="20px"></td></tr></table>
+<table style="border:1px solid;border-spacing:0;">
+  <tr><td width="80px"  class="texto_listado" style="background-color:#FCD5B4;">Instructor</td><td class="texto_listado" width="270px">&nbsp;</td></tr>  
+  <tr><td width="80px"  class="texto_listado" style="background-color:#FCD5B4;">Total</td><td class="texto_listado" width="270px">&nbsp;</td></tr>  
+</table>
+<style>
+ .cabecera_listado{
+     color:#000;
+     background-color:#B8CCE4;
+     font-size:13px;
+     border: 1px solid #000000;
+     text-align:center;
+     font-weight:bold;
+ }
+
+ .texto_listado{
+     padding-left:5px;
+     color:#000;
+     font-size:13px;
+     border: 1px solid #000000; 
+     text-align:left;
+ }
+
+ .registro_especial{
+     background-color:#C5BE97;
+ }
+
+ .mostra{
+    display:none;
+    width:0px;
+}
+</style>
+

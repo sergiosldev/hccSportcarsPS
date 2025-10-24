@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset=utf-8 />
+	<title>ColorBox Examples</title>
+	
+	<link media="screen" rel="stylesheet" href="colorbox.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script src="./colorbox/jquery.colorbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+		
+			$(".example8").colorbox({width:"50%", inline:true, href:"#inline_example1"});
+			
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+	</script>
+</head>
+<body>
+
+	<p><a class='example8' href="#">Inline HTML</a></p>
+	
+		
+	<!-- This contains the hidden content for inline calls -->
+	<div style='display:none'>
+		<div id='inline_example1' style='padding:10px; background:#fff;'>
+		<p><strong>This content comes from a hidden element on this page.</strong></p>
+		<p>The inline option preserves bound JavaScript events and changes, and it puts the content back where it came from when it is closed.<br />
+		<a id="click" href="#" style='padding:5px; background:#ccc;'>Click me, it will be preserved!</a></p>
+		
+		<p><strong>If you try to open a new ColorBox while it is already open, it will update itself with the new content.</strong></p>
+		<p>Updating Content Example:<br />
+		<a class="example5" href="../content/flash.html">Click here to load new content</a></p>
+		</div>
+	</div>
+</body>
+</html>

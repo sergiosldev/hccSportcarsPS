@@ -1,0 +1,51 @@
+[Thu, 07 Feb 2013 08:51:29 +0100] : SELECT  (select count(*) from ps_ofertas_cupones_historico c where c.id_usuario = u.id_usuario) cupones,u.*  FROM ps_usuarios u WHERE true  and u.nombre like "%3DV7680654230304H%" 
+               or u.apellidos like "%3DV7680654230304H%" 
+               or u.email like "%3DV7680654230304H%"
+               or u.direccion like "%3DV7680654230304H%"
+               or u.poblacion like "%3DV7680654230304H%"
+               or u.telefono like "%3DV7680654230304H%"
+               or u.cpostal like "%3DV7680654230304H%" ORDER BY u.id_usuario ASC
+[Thu, 07 Feb 2013 08:55:12 +0100] : SELECT  (select count(*) from ps_ofertas_cupones_historico c where c.id_usuario = u.id_usuario) cupones,u.*  FROM ps_usuarios u WHERE true  and u.nombre like "%0%" 
+               or u.apellidos like "%0%" 
+               or u.email like "%0%"
+               or u.direccion like "%0%"
+               or u.poblacion like "%0%"
+               or u.telefono like "%0%"
+               or u.cpostal like "%0%" ORDER BY u.id_usuario ASC
+[Thu, 07 Feb 2013 08:56:58 +0100] : SELECT  (select count(*) from ps_ofertas_cupones_historico c where c.id_usuario = u.id_usuario) cupones,u.*  FROM ps_usuarios u WHERE true  and u.nombre like "%0%" 
+               or u.apellidos like "%0%" 
+               or u.email like "%0%"
+               or u.direccion like "%0%"
+               or u.poblacion like "%0%"
+               or u.telefono like "%0%"
+               or u.cpostal like "%0%" ORDER BY u.id_usuario ASC
+[Thu, 07 Feb 2013 08:58:04 +0100] : test0--1
+[Thu, 07 Feb 2013 08:58:04 +0100] : SELECT  (select count(*) from ps_ofertas_cupones_historico c where c.id_usuario = u.id_usuario) cupones,u.*  FROM ps_usuarios u WHERE true  and u.nombre like "%0%" 
+               or u.apellidos like "%0%" 
+               or u.email like "%0%"
+               or u.direccion like "%0%"
+               or u.poblacion like "%0%"
+               or u.telefono like "%0%"
+               or u.cpostal like "%0%" ORDER BY u.id_usuario ASC
+[Thu, 07 Feb 2013 08:58:41 +0100] : test0--1
+[Thu, 07 Feb 2013 08:58:41 +0100] : SELECT  (select count(*) from ps_ofertas_cupones_historico c where c.id_usuario = u.id_usuario) cupones,u.*  FROM ps_usuarios u WHERE true  and u.nombre like "%0%" 
+               or u.apellidos like "%0%" 
+               or u.email like "%0%"
+               or u.direccion like "%0%"
+               or u.poblacion like "%0%"
+               or u.telefono like "%0%"
+               or u.cpostal like "%0%" ORDER BY u.id_usuario ASC
+[Thu, 07 Feb 2013 09:04:10 +0100] : SELECT  (select count(*) from ps_ofertas_cupones_historico c where c.id_usuario = u.id_usuario) cupones,u.*  FROM ps_usuarios u WHERE true  and u.nombre like "%05004%" 
+               or u.apellidos like "%05004%" 
+               or u.email like "%05004%"
+               or u.direccion like "%05004%"
+               or u.poblacion like "%05004%"
+               or u.telefono like "%05004%"
+               or u.cpostal like "%05004%" ORDER BY u.id_usuario ASC
+[Thu, 07 Feb 2013 09:04:13 +0100] : SELECT  (select count(*) from ps_ofertas_cupones_historico c where c.id_usuario = u.id_usuario) cupones,u.*  FROM ps_usuarios u WHERE true  and u.nombre like "%0%" 
+               or u.apellidos like "%0%" 
+               or u.email like "%0%"
+               or u.direccion like "%0%"
+               or u.poblacion like "%0%"
+               or u.telefono like "%0%"
+               or u.cpostal like "%0%" or (select count(*) from ps_ofertas_cupones_historico c where c.id_usuario = u.id_usuario) >0 ORDER BY u.id_usuario ASC
